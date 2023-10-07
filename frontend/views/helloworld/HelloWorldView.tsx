@@ -7,6 +7,7 @@ import { useState } from 'react';
 export default function HelloWorldView() {
   const [name, setName] = useState('');
 
+
   return (
     <>
       <section className="flex p-m gap-m items-end">
@@ -24,6 +25,7 @@ export default function HelloWorldView() {
         >
           Say hello
         </Button>
+        <button type="button" className="bg-primary p-xs rounded-m border-contrast-5">Primary</button>
       </section>
     </>
   );

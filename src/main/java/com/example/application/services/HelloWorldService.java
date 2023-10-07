@@ -2,7 +2,9 @@ package com.example.application.services;
 
 import com.vaadin.flow.server.auth.AnonymousAllowed;
 import dev.hilla.BrowserCallable;
+
 import org.springframework.stereotype.Service;
+
 
 @BrowserCallable
 @AnonymousAllowed
@@ -13,7 +15,11 @@ public class HelloWorldService {
         if (name.isEmpty()) {
             return "Hello stranger";
         } else {
-            return "Hello " + name;
+            return "Hellos " + name;
         }
+    }
+
+    public Integer stringLength(String name){
+        return name.length();
     }
 }

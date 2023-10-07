@@ -24,6 +24,7 @@
     "lit": "2.7.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
     "react-router-dom": "^6.4.2"
   },
   "devDependencies": {
@@ -69,7 +70,8 @@
     "@hilla/form": "$@hilla/form",
     "@hilla/generator-typescript-plugin-backbone": "$@hilla/generator-typescript-plugin-backbone",
     "@hilla/generator-typescript-cli": "$@hilla/generator-typescript-cli",
-    "@hilla/react-form": "$@hilla/react-form"
+    "@hilla/react-form": "$@hilla/react-form",
+    "react-icons": "$react-icons"
   },
   "vaadin": {
     "dependencies": {
@@ -110,6 +112,6 @@
       "workbox-core": "7.0.0",
       "workbox-precaching": "7.0.0"
     },
-    "hash": "2a95f971ab36c5e79a2b54e6aab9fc3879eca30bb40c1dcb12d8d799a24367f8"
+    "hash": "c9eaabf13d0611491acf308e1e8912144d1a855a8a2e8223910be5f65c0789f0"
   }
 }
